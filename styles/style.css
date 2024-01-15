@@ -30,12 +30,16 @@ body {
 .thrive-color {
   color: #ff5400;
 }
+
 .items-container {
   width: 50%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
+/* .items-container li {
+  list-style-type: none;
+} */
 .items-container a {
   text-decoration: none;
   color: #424247;
@@ -44,4 +48,84 @@ body {
 }
 .items-container a:hover {
   color: #ff5400;
+}
+.open-menu,
+.close-menu {
+  position: absolute;
+  color: #ff5400;
+  cursor: pointer;
+  font-size: 24px;
+  display: none;
+}
+.open-menu,
+.close-menu {
+  top: 62px;
+  right: 20px;
+}
+#check {
+  display: none;
+}
+/* banner section */
+.banner {
+  margin-top: 50px;
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url(../Images/Group\ 13\ .png);
+  border-radius: 16px;
+  height: 500px;
+}
+.banner-content {
+  margin: 0 auto;
+  width: 800px;
+  text-align: center;
+  transform: translateY(60%);
+}
+.banner-content h1 {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 800;
+}
+.banner-content h3 {
+  padding-top: 24px;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+.banner-content form {
+  margin-top: 24px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 24px;
+}
+.banner-content form input,
+select,
+.btn {
+  width: 174px;
+  height: 45px;
+  border-radius: 8px;
+  background: #fff;
+  padding-left: 10px;
+  border-style: none;
+  font-family: Mulish;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.btn {
+  border-style: none;
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
 }
