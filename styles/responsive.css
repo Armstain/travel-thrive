@@ -26,4 +26,46 @@
   #check:checked ~ .items-container {
     right: 0;
   }
+  .banner {
+    margin: 20px;
+    background-position: center;
+  }
+  .banner-content {
+    width: 90%;
+    transform: translateY(10%);
+  }
+  .banner-content h1 {
+    font-size: 22px;
+    font-weight: 800;
+  }
+  .banner-content h3 {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .banner-content form {
+    flex-direction: column;
+    padding: 16px;
+    align-items: center;
+    /* margin: 20px 20px; */
+  }
+  .banner-content form input,
+  select,
+  .btn {
+    width: 350px;
+  }
+  /* Popular Tours */
+
+  .popular-tours {
+    margin: 0 25px;
+    flex-direction: column;
+  }
+  .tour-description h2 {
+    font-size: 20px;
+  }
+  .tour-description p {
+    font-size: 14px;
+  }
+  .tour-description .btn {
+    width: 30%;
+  }
 }

@@ -8,6 +8,12 @@
 body {
   font-family: "Mulish", sans-serif;
 }
+#description {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+}
+
 .container {
   max-width: 1170px;
   margin: 0 auto;
@@ -74,6 +80,7 @@ body {
       rgba(19, 19, 24, 0) 100%
     ),
     url(../Images/Group\ 13\ .png);
+
   border-radius: 16px;
   height: 500px;
 }
@@ -101,8 +108,8 @@ body {
   background: rgba(255, 255, 255, 0.3);
   padding: 16px;
   display: flex;
-  justify-content: center;
-  width: 100%;
+  /* justify-content: center;
+  width: 100%; */
   gap: 24px;
 }
 .banner-content form input,
@@ -128,4 +135,26 @@ select,
   text-align: center;
   font-size: 16px;
   font-weight: 400;
+}
+/* Popular Tours */
+.popular-tours {
+  margin-top: 52px;
+  display: flex;
+  gap: 30px;
+}
+.tour-description h2 {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+}
+.tour-description > p,
+li {
+  margin-top: 25px;
+}
+.tour-description ul {
+  padding-left: 20px;
+}
+.tour-description .btn {
+  margin-top: 25px;
+  font-weight: 800;
 }
