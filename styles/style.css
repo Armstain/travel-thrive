@@ -327,3 +327,57 @@ li {
   background: rgba(233, 68, 68, 0.05);
   padding: 32px;
 }
+
+/* Newsletter section */
+.newsletter-section {
+  display: flex;
+  gap: 20px;
+}
+
+.newsletter-form {
+  border-radius: 16px;
+  border: 1px solid #ff5400;
+  padding: 32px;
+}
+.newsletter-form p {
+  margin: 30px 0;
+}
+.newsletter-form hr {
+  margin: 30px 0px;
+  color: rgba(19, 19, 24, 0.1);
+}
+.newsletter-form input {
+  width: 390px;
+  height: 52px;
+  padding: 10px;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  border-style: none;
+  margin: 10px;
+  color: rgba(19, 19, 24, 0.3);
+  font-size: 16px;
+  font-weight: 400;
+}
+.newsletter-form .btn {
+  margin: 10px;
+  width: 390px;
+  font-weight: 800;
+  font-size: 20px;
+}
+.newsletter-img {
+  position: relative;
+  object-fit: cover;
+}
+.newsletter-img-text {
+  position: absolute;
+  bottom: 66px;
+  right: 16px;
+  text-align: center;
+  width: 324px;
+  height: 120px;
+  transform: rotate(-19.628deg);
+  padding: 20px;
+  border-radius: 16px;
+  background: #ff5400;
+  color: #fff;
+}
