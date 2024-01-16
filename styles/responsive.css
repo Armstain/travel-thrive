@@ -68,4 +68,24 @@
   .tour-description .btn {
     width: 30%;
   }
+
+  /* tour destination */
+  .destination-grid {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  .destination-title h2 {
+    font-size: 20px;
+  }
+
+  /* Choose us section */
+  .first-two-card {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+  .third-card {
+    margin: 20px;
+  }
 }
