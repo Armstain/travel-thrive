@@ -327,7 +327,72 @@ li {
   background: rgba(233, 68, 68, 0.05);
   padding: 32px;
 }
-
+/* faq section */
+.faq-section {
+  display: flex;
+  flex-direction: column;
+  /* max-width: 991px;
+    min-width: 320px; */
+  margin: 50px auto;
+  padding: 0 50px;
+}
+.faq-title h1 {
+  font-size: 32px;
+  text-align: center;
+}
+.faq-item {
+  margin-top: 16px;
+  border: 1px solid #fcfcfc;
+  border-radius: 6px;
+  background: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+.faq-item .faq-item-title {
+  position: relative;
+  margin: 0;
+  display: flex;
+  width: 100%;
+  font-size: 15px;
+  cursor: pointer;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  padding: 14px 20px;
+  box-sizing: border-box;
+  align-items: center;
+}
+.faq-item .faq-item-desc {
+  display: none;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 300;
+  color: #444;
+  border-top: 1px dashed #ddd;
+  padding: 10px 20px 20px;
+  box-sizing: border-box;
+}
+.faq-item input[type="checkbox"] {
+  position: absolute;
+  height: 0;
+  width: 0;
+  opacity: 0;
+}
+.faq-item input[type="checkbox"]:checked ~ .faq-item-desc {
+  display: block;
+}
+.faq-item input[type="checkbox"]:checked ~ .faq-item-title .icon:after {
+  content: "-";
+  font-size: 20px;
+}
+.faq-item input[type="checkbox"] ~ .faq-item-title .icon:after {
+  content: "+";
+  font-size: 20px;
+}
+.faq-item:first-child {
+  margin-top: 0;
+}
+.faq-item .icon {
+  margin-left: 14px;
+}
 /* Newsletter section */
 .newsletter-section {
   display: flex;
@@ -380,4 +445,36 @@ li {
   border-radius: 16px;
   background: #ff5400;
   color: #fff;
+}
+
+/* Footer section*/
+footer {
+  margin-top: 100px;
+  padding: 100px;
+  text-align: center;
+  background: rgba(19, 19, 24, 0.05);
+  height: 500px;
+}
+.brand-logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+.brand-logo img {
+  padding: 0px 15px;
+}
+.footer-section p {
+  padding: 25px;
+}
+.footer-section i {
+  padding: 0 15px;
+  font-size: 30px;
+}
+.footer-section hr {
+  margin: 30px;
+  color: rgba(19, 19, 24, 0.1);
+}
+.footer-section h3 {
+  margin: 70px;
 }
