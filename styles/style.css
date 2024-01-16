@@ -18,6 +18,8 @@ body {
   max-width: 1170px;
   margin: 0 auto;
 }
+
+/* Navbar */
 .nav-container {
   margin-top: 52px;
   display: flex;
